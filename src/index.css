@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Main.css */
+
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todo-title {
+  font-size: 24px;
+}
+
+.add-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todo-input {
+  flex: 1;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.todo-button {
+  margin-left: 8px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #f8f9fa;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  margin-right: 8px;
+}
+
+.edit-button {
+  /* Add your custom styles for the Edit button */
+}
+.todo-container{
+  
+  
+}
